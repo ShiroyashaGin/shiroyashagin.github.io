@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Shiroシロ　| Jaron Doddema | True Or False</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 1600px; height: 900px; background: #231F20"></canvas>
+    <script src="Build/WebGl.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/WebGl.data.br",
+        frameworkUrl: "Build/WebGl.framework.js.br",
+        codeUrl: "Build/WebGl.wasm.br",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Shiroシロ",
+        productName: "True Or False",
+        productVersion: "1.0.2",
+      });
+    </script>
+  </body>
+</html>
